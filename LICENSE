@@ -1,21 +1,37 @@
-MIT License
+## 签到har记录
 
-Copyright (c) 2022 hbelioug
+### 免责声明
+当你订阅本站，及表示同意一下协议
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+本项目为学习交流的开源非营利项目，仅作为程序员之间相互学习交流之用，使用需严格遵守开源许可协议。严禁用于商业用途，禁止使用本项目进行任何盈利活动。对一切非法使用所产生的后果，我们概不负责。本项目对您如有困扰请联系我们删除。
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+### 简绍
+项目基于开源的签到框架站使用, 发布者在此发布模板仅供示范, 使用公共模板产生的任何问题需自行承担!
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+binux/qiandao 最初版本框架，已停止维护。
+
+qiandao-today/qiandao 最新版框架，现持续更新中。
+
+现模板基于 最新版框架 使用, 具体使用方式请自行学习。
+
+极个别模板不兼容 旧版本 框架, 如有不兼容请使用 最新版 。 具体使用方式请自行学习。
+
+```
+{
+    "version":"版本号 yyyymmdd",
+    "har": {
+        "必填，和name保值一致，注意要在文件里保持唯一": {
+            "name": "必填", 
+            "author": "选题，作者", 
+            "url": "选填，har链接", 
+            "update": false, 
+            "comments": "选填，har文件的注释，可用来解释har所需变量的说明", 
+            "filename": "必填，content为空时通过此来读取har", 
+            "content": "选填,不填则根据 filename 的值来读取对应的har文件,默认为base64编码", 
+            "date": "必填， 日期",
+            "version":"必填， 版本号 yyyymmdd，框架通过版本号来判断是否更新模板",
+            "commenturl":"选填，模板对应的评论区，留空时不显示按钮"
+        }
+    }
+}
+```
