@@ -1,5 +1,5 @@
 {
-    "version":"1.0",
+    "version":"20220206",
     "har": {
         "sockboom云签到": {
             "name": "sockboom云签到", 
@@ -9,7 +9,7 @@
             "comments": "输入账号密码，设置时间每天自动签到", 
             "filename": "sockboom云签到.har", 
             "content": "", 
-            "date": 2022-02-06 01:12:00"",
+            "date": "2022-02-06 01:12:00",
             "version":"20220206",
             "commenturl":"https://github.com/hbelioug/qiandao_templates/discussions/1"
         }
