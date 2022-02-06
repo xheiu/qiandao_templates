@@ -1,5 +1,5 @@
-{
-    "version":"20220204",
+﻿{
+    "version": "20220204",
     "har": {
         "sockboom云签到": {
             "name": "sockboom云签到", 
@@ -10,8 +10,8 @@
             "filename": "sockboom云签到.har", 
             "content": "filquihefiuopaefiuoaefhiuefhjaefhjkuaefuhiaefuih", 
             "date": "2022-02-05 01:00:00",
-            "version":"20220205",
-            "commenturl":"https://github.com/hbelioug/qiandao_templates/discussions/1"
+            "version": "20220205",
+            "commenturl": "https://github.com/hbelioug/qiandao_templates/discussions/1"
         }
     }
 }
