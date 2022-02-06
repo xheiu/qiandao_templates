@@ -1,17 +1,16 @@
 ﻿{
-    "version": "20220204",
-    "har": {
-        "sockboom云签到": {
-            "name": "sockboom云签到", 
-            "author": "HEIU", 
-            "url": "https://github.com/hbelioug/qiandao_templates/blob/master/sockboom云签到.har", 
-            "update": false, 
-            "comments": "输入账号密码，设置时间每天自动签到", 
-            "filename": "sockboom云签到.har", 
-            "content": "filquihefiuopaefiuoaefhiuefhjaefhjkuaefuhiaefuih", 
-            "date": "2022-02-05 01:00:00",
-            "version": "20220205",
-            "commenturl": "https://github.com/hbelioug/qiandao_templates/discussions/1"
-        }
+  "version":"20210916",
+  "har": {
+    "sockboom云签到": {
+      "name": "sockboom云签到",
+      "author": "wjf0214",
+      "url": "https://github.com/hbelioug/qiandao_templates/blob/master/sockboom云签到.har",
+      "update": false,
+      "comments": "登录后首页cookie<br>https://www.byzhihuo.com/",
+      "filename": "sockboom云签到.har",
+      "content": "",
+      "date": "2021-09-16 10:00:00",
+      "version":"20210916",
+      "commenturl":"https://github.com/hbelioug/qiandao_templates/discussions/1"
     }
 }
